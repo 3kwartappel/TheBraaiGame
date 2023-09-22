@@ -302,11 +302,11 @@ public class BraaiGame : MonoBehaviour
         //show the high score list
         List<HighScore> highScores = await _highScoreManager.FetchHighScores(secrets);
 
+        endGameText.gameObject.SetActive(true);
         endGameText.text = "Loading High scores..";
 
         string highScoreString = BuildHighScoreEndText(highScores);
 
-        endGameText.gameObject.SetActive(true);
 
         //determine if the user has a high score and show input
         float userScore = _score;
