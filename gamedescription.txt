@@ -1,0 +1,37 @@
+I am making a unity 3d game:  Its a grill or braai timing game where the user needs to turn the grids just at the right moment to get points.
+
+there is the following objects in the game and defined unity:
+1. a grid (GameObject 'braaiGrid')
+2. a hamburger (GameObject 'hamburger') 
+3. the user game score (Text 'scoreText')
+4. a gametimer (Text 'timerText')
+5. a countdown timer (Text 'xttimershowow')
+6. the class name is "BraaiGame"
+7. End game text (Text 'endGameText')
+8. smoke particle (gamobject 'smoke')
+
+the smoke and end game text is hidden at the start of the game, the rest is shown.
+
+9. 
+The screen is clickable any time.
+The grid (and burger) should be flipped 180 degrees verticaly and horizontally each time the screen is clicked.
+The speed of the flip should be 20ms.
+
+10. The user is shown their gamescore throughout the game.
+
+11. A countdownTimer is shown to the user, and this timer counts down from 5 seconds to 0 seconds.
+
+12. Smoke is shown (enabled) at 0.5 seconds of the countdowntimer, and is shown until the the user clicks.
+
+The user gets 1 point if they click the screen when the countdowntimer reaches between 0.5 seconds and 0.0seconds. 
+If the user 
+
+12. A gametimer is shown to the user counting up from 0s to 60s. 
+The game is over when the timer reaches 60s. 
+The end score should be displayed to them in an awesome style (without more assets being added) when the game ends.
+When the game ends only the burger, end game score, and end game text should be visible.
+
+give me the just the code please
+----
+
+The grid needs to be turned every second (almost on the second) or you dont score points. 
