@@ -1,7 +1,10 @@
 # Braai Game
 This is an Android game, to compete to be the best Braai champion in the World.
 
-Download the game here and give it a rating of your choosing: https://play.google.com/store/apps/details?id=com.driekwartappel_productions.braai
+~~Download the game here and give it a rating of your choosing: https://play.google.com/store/apps/details?id=com.driekwartappel_productions.braai~~
+
+Find the trailer video here: https://www.youtube.com/watch?v=Tgh2izxwfGY&feature=youtu.be
+Find the code here : https://github.com/3kwartappel/TheBraaiGame
 
 # Main Features
 - A state of the art High Score system
